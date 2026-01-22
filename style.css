@@ -1,9 +1,9 @@
 body {
-    background-color : #0f0f0f
+    background-color: #0f0f0f
 }
 
 h1 {
-    color : white
+    color: white
 }
 
 h2 {
@@ -15,8 +15,8 @@ h3 {
 }
 
 .container {
-    background-color: #181818a6;
-    padding: 1rem 1rem ;
+    background-color: #181818d2;
+    padding: 1rem 1rem;
     border-radius: 1rem;
     display: flex;
 }
@@ -32,6 +32,12 @@ h3 {
 .card p {
     color: white;
     text-align: center;
+}
+
+.wave {
+    margin-bottom: -25rem;
+    position: relative;
+    z-index: -1;
 }
 
 /* Começo - Card Bruno Gabriel */
@@ -67,7 +73,7 @@ h3 {
     color: #009154;
 }
 
-#brunoLink a{
+#brunoLink a {
     text-decoration: none;
     color: #009154;
 }
@@ -88,7 +94,8 @@ h3 {
     color: #5653ff77;
     padding-left: 15px;
 }
-#guiFormacao{
+
+#guiFormacao {
     color: #5653ff77;
     padding-left: 15px;
 }
@@ -98,6 +105,7 @@ h3 {
     color: aliceblue;
     bottom: 0;
 }
+
 .container #gui:hover {
     background-color: rgb(0, 5, 68);
 }
