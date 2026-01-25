@@ -1,11 +1,12 @@
+/* ============================= */
+/*          GLOBAL
+/* ============================= */
+
 body {
-    background-color: #0f0f0f
+    background-color: #0f0f0f;
 }
 
-h1 {
-    color: white
-}
-
+h1,
 h2 {
     color: white;
 }
@@ -14,19 +15,38 @@ h3 {
     color: rgb(109, 109, 109);
 }
 
+.wave {
+    margin-bottom: -25rem;
+    position: relative;
+    z-index: -1;
+}
+
+/* ============================= */
+/*          CONTAINER
+/* ============================= */
+
 .container {
     background-color: #181818d2;
-    padding: 1rem 1rem;
+    padding: 1rem;
     border-radius: 1rem;
     display: flex;
+    gap: 1rem;
 }
 
 .container ul {
+    list-style: none;
+    padding-left: 15px;
     color: white;
 }
 
-.card h5 {
-    color: white;
+/* ============================= */
+/*          CARD
+/* ============================= */
+
+.card {
+    background-color: #000d16a6;
+    border-width: 4px;
+    margin-right: 19px;
 }
 
 .card p {
@@ -34,24 +54,33 @@ h3 {
     text-align: center;
 }
 
-.wave {
-    margin-bottom: -25rem;
-    position: relative;
-    z-index: -1;
+/* ============================= */
+/*  TÍTULOS, LISTAS E LINKS
+/* ============================= */
+
+.card h4 {
+    padding-left: 15px;
 }
 
-/* Começo - Card Bruno Gabriel */
+.btn {
+    padding: 6px 14px;
+    color: aliceblue;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* ============================= */
+/*          BRUNO
+/* ============================= */
 
 #brunoCard {
-    background-color: #000d16a6;
-    border-width: 4px;
-    margin-right: 19px;
     border-color: #00ff9550;
 }
 
-.container ul {
-    list-style: none;
-    padding-left: 15px;
+#brunoTitulo {
+    color: #009154;
 }
 
 #brunoBolinha::before {
@@ -59,77 +88,59 @@ h3 {
     color: #009154;
 }
 
-.container #bruno {
-    background-color: rgb(0, 31, 23);
-    color: aliceblue;
-    padding: 6px 14px;
-}
-
-.container #bruno:hover {
-    background-color: rgb(0, 41, 16);
-}
-
-#brunoTitulo {
-    color: #009154;
-}
-
 #brunoLink a {
-    text-decoration: none;
     color: #009154;
 }
 
-/* Fim - Card Bruno Gabriel */
+#bruno {
+    background-color: rgb(0, 31, 23);
+}
 
+#bruno:hover {
+    background-color: rgb(0, 41, 16);
+    color: white;
+}
 
-/* Começo - Card Guilherme */
+/* ============================= */
+/*          GUILHERME
+/* ============================= */
 
 #guiCard {
-    background-color: #000d16a6;
-    border-width: 4px;
-    margin-right: 19px;
-    border-color: rgba(38, 0, 255, 0.315);
+    border-color: #002dc050;
 }
 
-#guiHabilidades {
-    color: #5653ff77;
-    padding-left: 15px;
+#guiTitulo {
+    color: #002dc0;
 }
 
-#guiFormacao {
-    color: #5653ff77;
-    padding-left: 15px;
-}
-
-.container #gui {
-    background-color: rgb(7, 0, 31);
-    color: aliceblue;
-    bottom: 0;
-}
-
-.container #gui:hover {
-    background-color: rgb(0, 5, 68);
-}
-
-#guili::before {
+#guiBolinha::before {
     content: "• ";
     color: #002dc0;
 }
 
-/* Fim - Card Guilherme */
+#guiLink a {
+    color: #002dc0;
+}
 
+#gui {
+    background-color: rgb(7, 0, 31);
+}
 
-/* Começo - Card Luiz Octávio */
+#gui:hover {
+    background-color: rgb(0, 5, 68);
+    color: white;
+}
+
+/* ============================= */
+/*          TAVINHO
+/* ============================= */
 
 #tavinhoCard {
-    background-color: #000d16a6;
-    border-width: 4px;
-    margin-right: 19px;
     border-color: #eeff00;
 }
 
-.container ul {
-    list-style: none;
-    padding-left: 15px;
+#tavinhoTitulo {
+    color: #eeff00;
 }
 
 #tavinhobolinha::before {
@@ -137,23 +148,15 @@ h3 {
     color: #eeff00;
 }
 
-.container #tavinho {
-    background-color: rgb(115, 141, 0);
-    color: aliceblue;
-    padding: 6px 14px;
-}
-
-.container #tavinho:hover {
-    background-color: rgb(115, 141, 0);
-}
-
-#tavinhoTitulo {
-    color: #eeff00;
-}
-
 #tavinhoLink a {
-    text-decoration: none;
     color: #eeff00;
 }
 
-/* Fim - Card Luiz Octávio */
+#tavinho {
+    background-color: rgb(115, 141, 0);
+}
+
+#tavinho:hover {
+    background-color: rgb(95, 120, 0);
+    color: white;
+}
