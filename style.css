@@ -116,3 +116,44 @@ h3 {
 }
 
 /* Fim - Card Guilherme */
+
+
+/* Começo - Card Luiz Octávio */
+
+#tavinhoCard {
+    background-color: #000d16a6;
+    border-width: 4px;
+    margin-right: 19px;
+    border-color: #eeff00;
+}
+
+.container ul {
+    list-style: none;
+    padding-left: 15px;
+}
+
+#tavinhobolinha::before {
+    content: "• ";
+    color: #eeff00;
+}
+
+.container #tavinho {
+    background-color: rgb(115, 141, 0);
+    color: aliceblue;
+    padding: 6px 14px;
+}
+
+.container #tavinho:hover {
+    background-color: rgb(115, 141, 0);
+}
+
+#tavinhoTitulo {
+    color: #eeff00;
+}
+
+#tavinhoLink a {
+    text-decoration: none;
+    color: #eeff00;
+}
+
+/* Fim - Card Luiz Octávio */
