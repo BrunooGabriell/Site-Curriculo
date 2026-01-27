@@ -1,4 +1,4 @@
-# Site de Currículo – Portfólio Profissional
+# Site de Currículo – Portfólio
 
 Este projeto consiste no desenvolvimento de um site de currículo online, criado com o objetivo de demonstrar nossos conhecimentos na área de desenvolvimento e disponibilizar nossos currículos de forma moderna, organizada e acessível.
 
