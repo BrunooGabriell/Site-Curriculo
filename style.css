@@ -20,12 +20,6 @@ h3 {
 /* ============================= */
 
 .wave {
-    margin-bottom: -150rem;
-    position: relative;
-    z-index: -1;
-}
-
-.wave-wrapper {
     position: absolute;
     top: 0;
     left: 0;
@@ -190,6 +184,8 @@ a {
     padding: 1rem;
     background-color: #111;
     border-radius: 12px;
+    z-index: 2;
+    position: relative;
 }
 
 .pdf-wrapper iframe {
@@ -201,5 +197,5 @@ a {
 }
 
 #numpodeman {
-    overflow-y: hidden;
+    overflow: hidden;
 }
