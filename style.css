@@ -15,11 +15,30 @@ h3 {
     color: rgb(109, 109, 109);
 }
 
+/* ============================= */
+/*          WAVE
+/* ============================= */
+
 .wave {
-    margin-bottom: -25rem;
+    margin-bottom: -150rem;
     position: relative;
     z-index: -1;
 }
+
+.wave-wrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+.titulo {
+    position: relative;
+    z-index: 2;
+    padding-top: 100px;
+}
+
 
 /* ============================= */
 /*          CONTAINER
@@ -27,10 +46,10 @@ h3 {
 
 .container {
     background-color: #181818d2;
-    padding: 1rem;
+    padding: 1.5rem;
     border-radius: 1rem;
-    display: flex;
-    gap: 1rem;
+    position: relative;
+    z-index: 2;
 }
 
 .container ul {
@@ -181,6 +200,6 @@ a {
     background-color: #000;
 }
 
-#numpodeman{ 
+#numpodeman {
     overflow-y: hidden;
 }
